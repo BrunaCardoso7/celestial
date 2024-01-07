@@ -20,14 +20,14 @@
         </nav>
     </header>
     <main>
-        <section class="conteiner-outdoor">
+        <section class="conteiner-outdoor tagline">
             <div class="color"></div>
-            <div class="conteiner-tags">
+            <div class="conteiner-tags ">
                 <p>Cobertura nacional</p>
                 <p>O mais acessivel do país</p>
                 <p>Mais de 5000 clientes </p>
             </div>
-            <div class="conteiner-mainText">
+            <div class="conteiner-mainText punchline">
                 <h1>
                     Celestial, seu plano assistencial
                 </h1>
@@ -36,11 +36,11 @@
                 </p>
             </div>
         </section>
-        <section class="conteiner-sobrenos">
+        <section class="conteiner-sobrenos headline">
             <div class="conteiner-conteudo">
                 <h1>Quem Somos</h1>
             </div>
-            <div class="conteiner-subCards">
+            <div class="conteiner-subCards punchline">
                 <div class="subcard">
                     <p>Desde de <br> <span>2020</span> <br> no mercado</p>
                 </div>
@@ -86,7 +86,7 @@
             </div>
             <button id="btnText">Leia mais</button>
         </section>
-        <section class="conteiner-parceria">
+        <section class="conteiner-parceria headline">
             <div class="conteiner-images">
                 <img src="parceriaHap.png" style="height: 50px;" alt="">
                 <img src="Inserir um título1.png" style="height: 80px;" alt="">
@@ -103,7 +103,7 @@
                 Há mais de dois anos fechados com a HapVida oferecendo a qualidade e conforto que você merece.
             </p>
         </section>
-        <section class="conteiner-sectionPlanos">
+        <section class="conteiner-sectionPlanos headline">
             <h2>Planos <br> assistência funerária</h2>
             <div class="conteiner-planos">
                 <div class="plano">
@@ -161,9 +161,9 @@
                 </div>
             </div>
         </section>
-        <section class="conteiner-petsinfo">
+        <section class="conteiner-petsinfo headline">
             <img src="Group 1.png" style="height: 400px;" alt="">
-            <div class="conteiner-petText">
+            <div class="conteiner-petText punchline">
                 <h2>Seu pet também é da família!</h2>
                 <p>
                     Fechamos parceria com uma das maiores <br> redes veterinárias do país, DoctorVet.
@@ -176,12 +176,12 @@
                 <img src="dtrpetsparc.svg" style="height: 70px;" alt="">
             </div>
         </section>
-        <section class="conteiner-contatos">
+        <section class="conteiner-contatos headline">
             <h2>Fale conosco</h2>
             <p>
                 Nossa equipe está totalmente preparada para tirar <br> suas dúvidas e guiar você para fazer parte do nosso <br> grupo.
             </p>
-            <div class="contatos">
+            <div class="contatos headline">
                 <p><b>Telefone</b>: 0800 429 3132</p>
                 <p><b>Instagram</b>: @celest_assistencia</p>
                 <p><b>Email</b>: celestialassistencia24H@gmail.com</p>
@@ -196,7 +196,13 @@
             <p>Grupo Celestial2024©</p>
         </div>
     </footer>
+    <script src="https://unpkg.com/scrollreveal"></script>
     <script>
+        ScrollReveal().reveal('.headline');
+        ScrollReveal().reveal('.tagline', { delay: 200 });
+        ScrollReveal().reveal('.punchline', { delay: 500 });
+        ScrollReveal({ reset: true });
+        ScrollReveal().reveal('.headline');
         const texthiddem = document.getElementById('texthiddem')
         const btnText = document.getElementById('btnText')
         btnText.addEventListener('click', (e)=>{

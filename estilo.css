@@ -314,6 +314,7 @@ footer{
     display: flex;
     justify-content: start;
     gap: 20%;
+    padding-bottom:20px ;
 }
 footer img{
     height: 80px;
