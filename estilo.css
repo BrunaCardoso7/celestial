@@ -144,7 +144,7 @@ main .conteiner-sobrenos{
 }
 /* hapvida parceria */
 main .conteiner-parceria{
-    height: 40vh;
+    height: 50vh;
     width: 100vw;
     display: flex;
     flex-direction: column;
