@@ -151,7 +151,7 @@ main .conteiner-parceria{
     align-items: center;
     justify-content: center;
     gap: 30px;
-    margin-bottom: 150px;
+    margin-bottom: 100px;
 }
 main .conteiner-parceria p{
     width: 50vw;
@@ -270,4 +270,60 @@ main .conteiner-petsinfo{
 }
 .conteiner-petsinfo .conteiner-petText ul li i{
     color: red;
+}
+/* contatos */
+main .conteiner-contatos{
+    width: 100vw;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+main .conteiner-contatos h2{
+    font-size: 3rem;
+}   
+main .conteiner-contatos p{
+    font-size: 1.8rem;
+    text-align: center;
+    font-weight: 300;
+}
+main .conteiner-contatos .contatos{
+    display: flex;
+    gap: 30px;
+}
+main .conteiner-contatos .contatos p{
+    font-size: 1.5rem;
+}
+main .conteiner-contatos button{
+    border: none;
+    background-color: green;
+    font-size: 1.5rem;
+    color: #ffffff;
+    padding: 5px 25px;
+    border-radius: 24px;
+    margin-top: 20px;
+}
+main .conteiner-contatos button:hover{
+    background-color: rgb(0, 90, 0);
+}
+/* footer */
+footer{
+    background-color: #1E1E1E;
+    display: flex;
+    justify-content: start;
+    gap: 20%;
+}
+footer img{
+    height: 80px;
+    margin-left: 100px;
+}
+.textfooter{
+    margin-top: 20px;
+}
+.textfooter p{
+    text-align: center;
+    color: #ffffff;
+    font-weight: 300;
 }
