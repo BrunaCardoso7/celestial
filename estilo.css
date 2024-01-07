@@ -84,10 +84,11 @@ main .conteiner-outdoor{
 /* quem somos */
 main .conteiner-sobrenos{
     width: 100vw;
-    height: 90vh;
+    height: fit-content;
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 50px;
 }
 .conteiner-sobrenos h1{
     font-size: 3rem;
@@ -123,6 +124,12 @@ main .conteiner-sobrenos{
 .conteiner-sobrenos .conteiner-historia p{
     font-size: 1.3rem;
     line-height: 35px;
+    margin-bottom: 20px;
+}
+.conteiner-sobrenos .conteiner-historia #texthiddem span{
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
 }
 .conteiner-sobrenos button{
     border: none;

@@ -58,8 +58,33 @@
                     decidiram abrir uma panificadora na Avenida Presidente Kennedy, próxima ao McDonald's, mas 
                     infelizmente não obteve o sucesso esperado.
                 </p>
+                <p id="texthiddem" style="display: none;">
+                    <span style="margin-bottom: 20px;">
+                        Posteriormente, tentaram um quiosque no Shopping Rio Poty, no piso L3, especializado em sorvetes gourmet.
+                        Apesar de um início promissor, as vendas diminuíram, levando-os a encerrar essa empreitada. Foi então que um amigo
+                         mencionou a Guardian, elogiando seu plano de negócios. O Sr. Tales Beltrão pesquisou a empresa e teve uma
+                         ideia.
+                    </span>
+
+                    <span style="margin-bottom: 20px;">
+                        Junto com a Sra. Juliana Menezes, os dois começaram a desenvolver uma parceria sólida. Obtiveram um empréstimo
+                         bancário para capital de giro, contando também com o apoio de amigos que se tornaram sócios da empresa. Com
+                         apenas 4 anos de existência, nossa empresa já construiu uma carteira de clientes fiéis.
+                    </span>
+
+                    <span style="margin-bottom: 20px;">
+                        Atualmente, estamos embarcando em um projeto de expansão, inicialmente focado no Nordeste, nossa casa, e
+                        posteriormente no Norte e em todo o Brasil. Este mês, abriremos duas filiais, uma em Caxias, no Maranhão, e
+                        outra em Juazeiro, na Bahia. Em maio, lançaremos nossa primeira filial em Belém do Pará.
+                    </span>
+
+                    <span style="margin-bottom: 20px;">
+                        Nosso compromisso é proporcionar conforto, qualidade e suporte em um momento tão delicado. Estamos ansiosos
+                        para levar nossa marca para novos horizontes, sempre focados em atender às necessidades de nossos clientes.
+                    </span>
+                </p>
             </div>
-            <button>Leia mais</button>
+            <button id="btnText">Leia mais</button>
         </section>
         <section class="conteiner-parceria">
             <div class="conteiner-images">
@@ -153,6 +178,18 @@
         </section>
     </main>
     <script>
+        const texthiddem = document.getElementById('texthiddem')
+        const btnText = document.getElementById('btnText')
+        btnText.addEventListener('click', (e)=>{
+            console.log('bunda')
+            console.log(e.target)
+            if(texthiddem.style.display === 'none'){
+                texthiddem.style.display = 'block'
+            } else {
+                texthiddem.style.display = 'none'
+            }
+        })
+
         const none1 = document.getElementById('conteinerNone1')
         const btnDown1 = document.getElementById('btn-down')
         btnDown1.addEventListener('click', (e)=>{
