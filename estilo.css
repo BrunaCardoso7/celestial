@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rouge+Script&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -15,7 +16,7 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 35%;
+    gap: 25%;
     padding: 5px 0;
 }
 header img{
@@ -84,11 +85,12 @@ main .conteiner-outdoor{
 /* quem somos */
 main .conteiner-sobrenos{
     width: 100vw;
+    min-height: 100vh;
     height: fit-content;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 50px;
+    margin-top: 100px;
 }
 .conteiner-sobrenos h1{
     font-size: 3rem;
@@ -141,27 +143,51 @@ main .conteiner-sobrenos{
     border-radius: 14px;
     color: #F7F6F6;
     margin-top: 20px;
+    margin-bottom: 60px;
 }
 /* hapvida parceria */
+main .session-parceirias{
+    margin: 0px 0;
+   
+}
+main .session-parceirias h2{
+    text-align: center;
+    font-size: 3rem;
+    margin: 0px 0;
+}
 main .conteiner-parceria{
-    height: 50vh;
-    width: 100vw;
+    margin: 0px auto;
+    height: 70vh;
+    width: 80vw;
     display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 30px;
+    gap: 50px;
     margin-bottom: 100px;
+    border-bottom: 1px solid gray;
 }
 main .conteiner-parceria p{
     width: 50vw;
     text-align: center;
+    color: #FFCC00;
     font-size: 2rem;
-    font-weight: 300;
+    font-weight: 500;
 }
-
+.conteiner-textparceria{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.conteiner-infos .info p i{
+    margin-right: 20px;
+    color: red;
+}
 .conteiner-infos .info p{
-    text-align: center;
+    margin: 20px 0;
+    padding-left: 130px;
+    text-align: start;
+    color: #1E1E1E;
+    font-weight: 300;
     font-size: 1.2rem;
 }
 .conteiner-infos .info p span{
@@ -172,10 +198,18 @@ main .conteiner-parceria p{
 /* planos */
 main .conteiner-sectionPlanos{
     width: 100vw;
+    margin: 100px 0;
     height: fit-content;
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+#cashout{
+    margin-top: 50px;
+    font-size: 2rem;
+    text-align: center;
+    font-weight: 300;
+    width: 60vw;
 }
 main .conteiner-sectionPlanos h2{
     text-align: center;
@@ -234,12 +268,40 @@ main .conteiner-sectionPlanos h2{
     margin-top: 10px;
     font-size: 1.2rem ;
 }
+/* flor fedorenta */
+main .conteiner-flowerinfo{
+    margin: 50px  auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80vw;
+    height: 60vh;
+    gap: 150px;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+}
+main .conteiner-flowerinfo h2{
+    font-size: 2.5rem;
+    text-align: center;
+    color: #FFCC00;
+    margin-bottom: 20px;
+}
+main .conteiner-flowerinfo h3{
+    font-family: 'Rouge Script', cursive;
+    text-align: center;
+    font-size: 3em;
+}
+main .conteiner-flowerinfo p{
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: 300;
+}
 /* pets */
 main .conteiner-petsinfo{
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 80vh;
+    height: 60vh;
     gap: 100px;
 }
 .conteiner-petsinfo .conteiner-petText{
@@ -274,7 +336,7 @@ main .conteiner-petsinfo{
 /* contatos */
 main .conteiner-contatos{
     width: 100vw;
-    height: 70vh;
+    height: 90vh;
     display: flex;
     justify-content: center;
     align-items: center;

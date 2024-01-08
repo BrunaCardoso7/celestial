@@ -15,6 +15,7 @@
         <img src="Inserir um título1.png" alt="logo da celestial">
         <nav>
             <a href ="#">Quem Somos</a>
+            <a href="#">Parcerias</a>
             <a href="#">Planos</a>
             <a href=""><i class="fa-solid fa-phone"></i>Fale conosco</a>
         </nav>
@@ -86,29 +87,50 @@
             </div>
             <button id="btnText">Leia mais</button>
         </section>
-        <section class="conteiner-parceria headline">
-            <div class="conteiner-images">
-                <img src="parceriaHap.png" style="height: 50px;" alt="">
-                <img src="Inserir um título1.png" style="height: 80px;" alt="">
-            </div>
-            <div class="conteiner-infos">
-                <div class="info">
-                    <p>
-                        Plano parceiro Hapvida com <span>20%</span><br> de desconto no plano básico
-                        disponibilizado pela empresa Hapvida.
-                    </p>
+        <section class="session-parceirias">
+            <h2 style="margin: 10px 0;">Parcerias</h2>
+            <section class="conteiner-parceria headline">
+                <div class="conteiner-textparceria">
+                    <div class="conteiner-infos">
+                        <p>
+                            Há mais de dois anos fechados <br>com a HapVida oferecendo a qualidade e conforto que você merece
+                        </p>
+                        <div class="info">
+                            <p>
+                                <i class="fa-solid fa-heart"></i>Plano parceiro Hapvida com <span>20%</span> de desconto no plano básico 
+                                disponibilizado pela empresa Hapvida.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="conteiner-images">
+                        <img src="parceriaHap.png" style="height: 50px;" alt="">
+                        <img src="Inserir um título1.png" style="height: 80px;" alt="">
+                    </div>
                 </div>
-            </div>
-            <p>
-                Há mais de dois anos fechados com a HapVida oferecendo a qualidade e conforto que você merece.
-            </p>
+                <img src="medico 1.png" style="height: 350px;" alt="">
+            </section>
+            <section class="conteiner-petsinfo headline">
+                <img src="Group 1.png" style="height: 350px;" alt="">
+                <div class="conteiner-petText punchline">
+                    <h2>Seu pet também é da família!</h2>
+                    <p>
+                        Fechamos parceria com uma das maiores <br> redes veterinárias do país, DoctorVet.
+                    </p>
+                    <ul>
+                        <li><i class="fa-solid fa-paw"></i>Descontos de 10% em consultas pro <br> seu pet;</li>
+                        <li><i class="fa-solid fa-paw"></i>Descontos de 5% para compras de <br>acessório e ração;</li>
+                        <li><i class="fa-solid fa-paw"></i>Equipe totalmente preparada cuidar <br> da saúde do seu pet. </li>
+                    </ul>
+                    <img src="dtrpetsparc.svg" style="height: 70px;" alt="">
+                </div>
+            </section>
         </section>
         <section class="conteiner-sectionPlanos headline">
             <h2>Planos <br> assistência funerária</h2>
             <div class="conteiner-planos">
                 <div class="plano">
                     <h3>Plano <span>Individual</span></h3>
-                    <p>$17,90</p>
+                    <p>$18,90</p>
                     <ul>
                         <li><i class="fa-regular fa-circle-check"></i> <b>Urna mortuária</b> com madeira standard de alta qualidade personalizada, com nome gravado a laser em placa de metal.</li>
                         <li><i class="fa-regular fa-circle-check"></i> <b>Paramentações</b> com inclusão de castiçais, velas, e banquetas para um ambiente solene e
@@ -120,9 +142,29 @@
                         <li><i class="fa-regular fa-circle-check"></i> Ornamentação, limpeza e tanaxopraxia</li>
                     </ul>
                 </div>
+                
+                <div class="plano">
+                    <h3>Plano <span>Familiar</span></h3>
+                    <p>$28,90</p>
+                    <ul>
+                        <li><i class="fa-regular fa-circle-check"></i> O plano família inclui o <b>titular</b> e mais <b>4 pessoas</b> com menos de 75 anos e que
+                            residam dentro do raio de cobertura</li>
+                        <li><i class="fa-regular fa-circle-check"></i> <b>Urna mortuária</b> com madeira standard de alta qualidade personalizada, com nome gravado a laser em placa de metal.</li>
+                        <li><i class="fa-regular fa-circle-check"></i> <b>Paramentações</b> com inclusão de castiçais, velas, e banquetas para um ambiente solene e
+                            acolhedor</li>
+                        <li><i class="fa-regular fa-circle-check"></i> Orientação de serviços de cartório e documentação</li>
+                        <li><i class="fa-regular fa-circle-check"></i> translado de 300km</li>
+                        <li><i class="fa-regular fa-circle-check"></i> Coroa de flores artificiais e véu simples</li>
+                        <div id="conteinerNone" style="display: none;">
+                            <li><i class="fa-regular fa-circle-check"></i> Sala velatória e flexibilidade de sepultamento</li>
+                            <li><i class="fa-regular fa-circle-check"></i> Ornamentação, limpeza e tanatopraxia</li>
+                        </div>
+                    </ul>
+                    <button id="btn-down1"><i class="fa-regular fa-circle-down"></i></button>
+                </div>
                 <div class="plano">
                     <h3>Plano <span style="color: rgb(61, 37, 37);">Familiar(Deluxe)</span></h3>
-                    <p style="background-color: rgb(65, 65, 65);">$46,90</p>
+                    <p style="background-color: rgb(65, 65, 65);">$38,90</p>
                     <ul>
                         <li><i class="fa-regular fa-circle-check"></i> O plano família inclui o <b>titular</b> e mais <b>7 pessoas</b> com menos de 75 anos e que
                             residam dentro do raio de cobertura</li>
@@ -140,42 +182,22 @@
                     </ul>
                     <button id="btn-down"><i class="fa-regular fa-circle-down"></i></button>
                 </div>
-                <div class="plano">
-                    <h3>Plano <span>Familiar</span></h3>
-                    <p>$36,90</p>
-                    <ul>
-                        <li><i class="fa-regular fa-circle-check"></i> O plano família inclui o <b>titular</b> e mais <b>4 pessoas</b> com menos de 75 anos e que
-                            residam dentro do raio de cobertura</li>
-                        <li><i class="fa-regular fa-circle-check"></i> <b>Urna mortuária</b> com madeira standard de alta qualidade personalizada, com nome gravado a laser em placa de metal.</li>
-                        <li><i class="fa-regular fa-circle-check"></i> <b>Paramentações</b> com inclusão de castiçais, velas, e banquetas para um ambiente solene e
-                            acolhedor</li>
-                        <li><i class="fa-regular fa-circle-check"></i> Orientação de serviços de cartório e documentação</li>
-                        <li><i class="fa-regular fa-circle-check"></i> translado de 300km</li>
-                        <li><i class="fa-regular fa-circle-check"></i> Coroa de flores artificiais e véu simples</li>
-                        <div id="conteinerNone" style="display: none;">
-                            <li><i class="fa-regular fa-circle-check"></i> Sala velatória e flexibilidade de sepultamento</li>
-                            <li><i class="fa-regular fa-circle-check"></i> Ornamentação, limpeza e tanatopraxia</li>
-                        </div>
-                    </ul>
-                    <button id="btn-down1"><i class="fa-regular fa-circle-down"></i></button>
-                </div>
             </div>
+            <p id="cashout">
+                 Cashout de 15% do valor pago a partir de 2 anos, com solicitação a cada 8 meses após.
+            </p>
         </section>
-        <section class="conteiner-petsinfo headline">
-            <img src="Group 1.png" style="height: 400px;" alt="">
+        <section class="conteiner-flowerinfo headline">
             <div class="conteiner-petText punchline">
-                <h2>Seu pet também é da família!</h2>
+                <h2>Produto exclusivo celestial </h2>
+                <h3>Calendula officinalis</h3>
                 <p>
-                    Fechamos parceria com uma das maiores <br> redes veterinárias do país, DoctorVet.
+                    Flores odorizadas com barreira firme de <br> defesa aos mosquitos.
                 </p>
-                <ul>
-                    <li><i class="fa-solid fa-paw"></i>Descontos de 10% em consultas pro <br> seu pet;</li>
-                    <li><i class="fa-solid fa-paw"></i>Descontos de 5% para compras de <br>acessório e ração;</li>
-                    <li><i class="fa-solid fa-paw"></i>Equipe totalmente preparada cuidar <br> da saúde do seu pet. </li>
-                </ul>
-                <img src="dtrpetsparc.svg" style="height: 70px;" alt="">
             </div>
+            <img src="calendula- 1.png" style="height: 250px;" alt="">
         </section>
+        
         <section class="conteiner-contatos headline">
             <h2>Fale conosco</h2>
             <p>
